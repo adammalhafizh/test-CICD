@@ -3,12 +3,12 @@ import { useParams, useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import "../css/lifegoalsDetail.css";
 
-import graduationIcon from "../assets/images/education.png";
-import vacationIcon from "../assets/images/vacation.png";
-import marriageIcon from "../assets/images/marriage.png";
-import homeIcon from "../assets/images/home.png";
-import gadgetIcon from "../assets/images/gadget.png";
-import vehicleIcon from "../assets/images/vehicle.png";
+import graduationIcon from "../assets/images/Education.png";
+import vacationIcon from "../assets/images/Vacation.png";
+import marriageIcon from "../assets/images/Marriage.png";
+import homeIcon from "../assets/images/Home.png";
+import gadgetIcon from "../assets/images/Gadget.png";
+import vehicleIcon from "../assets/images/Vehicle.png";
 
 export default function LifeGoalDetail() {
   const { id } = useParams();
@@ -58,16 +58,41 @@ export default function LifeGoalDetail() {
 
   const transactions = {
     May: [
-      { date: "31 May 2025", type: "Others", desc: "Interest", amount: "+5.000" },
+      {
+        date: "31 May 2025",
+        type: "Others",
+        desc: "Interest",
+        amount: "+5.000",
+      },
       { date: "31 May 2025", type: "Others", desc: "Tax", amount: "-1.000" },
-      { date: "25 May 2025", type: "Autodebit", desc: "Life Goals Deposit", amount: "+2.000.000" },
-      { date: "5 May 2025", type: "Top Up", desc: "Life Goals Deposit", amount: "+250.000" },
+      {
+        date: "25 May 2025",
+        type: "Autodebit",
+        desc: "Life Goals Deposit",
+        amount: "+2.000.000",
+      },
+      {
+        date: "5 May 2025",
+        type: "Top Up",
+        desc: "Life Goals Deposit",
+        amount: "+250.000",
+      },
     ],
   };
 
   const months = [
-    "Jan", "Feb", "Mar", "Apr", "May", "Jun",
-    "Jul", "Aug", "Sep", "Oct", "Nov", "Dec",
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
   ];
 
   return (
@@ -87,7 +112,10 @@ export default function LifeGoalDetail() {
 
         {/* === TOP CARD === */}
         <div className="goal-header-card">
-          <div className="goal-header-left" style={{ backgroundColor: goal.color }}>
+          <div
+            className="goal-header-left"
+            style={{ backgroundColor: goal.color }}
+          >
             <img src={goal.icon} alt={goal.title} />
           </div>
 
