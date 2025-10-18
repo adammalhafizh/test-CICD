@@ -21,6 +21,13 @@ jobs:
           npm run lint || echo "::warning::Linting failed, check your code style!"
         continue-on-error: true
 
+      - name: Run Unit Tests
+        run: |
+          echo "🧪 Running Unit Tests..."
+          npm test -- --watchAll=false
+        env:
+          CI: true
+
       # - name: SonarQube Scan
       #   uses: SonarSource/sonarqube-scan-action@v2.2
       #   env:
