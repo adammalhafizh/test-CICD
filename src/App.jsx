@@ -2,12 +2,12 @@ import React from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 
-import Login from "./pages/Login";
+import Login from "./pages/login";
 import Dashboard from "./pages/Dashboard";
 import LifeGoals from "./pages/LifeGoals";
 import LifeGoalDetail from "./pages/LifeGoalsDetail";
 import Profile from "./pages/Profile";
-import OtpLogin from "./pages/OtpLogin";
+import OtpLogin from "./pages/otpLogin";
 import PopupBlock from "./pages/PopupBlock";
 
 export default function App() {
