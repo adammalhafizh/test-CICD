@@ -4,12 +4,12 @@ import { useNavigate } from "react-router-dom";
 import "../css/lifegoals.css";
 import LifeGoalCard from "../components/LifeGoalsCard";
 
-import graduationIcon from "../assets/images/education.png";
-import vacationIcon from "../assets/images/vacation.png";
-import marriageIcon from "../assets/images/marriage.png";
-import homeIcon from "../assets/images/home.png";
-import gadgetIcon from "../assets/images/gadget.png";
-import vehicleIcon from "../assets/images/vehicle.png";
+import graduationIcon from "../assets/images/Education.png";
+import vacationIcon from "../assets/images/Vacation.png";
+import marriageIcon from "../assets/images/Marriage.png";
+import homeIcon from "../assets/images/Home.png";
+import gadgetIcon from "../assets/images/Gadget.png";
+import vehicleIcon from "../assets/images/Vehicle.png";
 
 export default function LifeGoals() {
   const navigate = useNavigate();
