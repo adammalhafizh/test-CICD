@@ -18,6 +18,9 @@ export default function App() {
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Login />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/lifegoals" element={<LifeGoals />} />
         <Route path="/lifegoal/:id" element={<LifeGoalDetail />} />
         <Route path="/profile" element={<Profile />} />
