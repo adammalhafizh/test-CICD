@@ -23,6 +23,8 @@ export default function App() {
         <Route path="/profile" element={<Profile />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/otpLogin" element={<OtpLogin />} />
+        <Route path="/otpLogin" element={<OtpLogin />} />
+        <Route path="/otpLogin" element={<OtpLogin />} />
         <Route path="/popupblock" element={<PopupBlock />} />
       </Routes>
     </AnimatePresence>
