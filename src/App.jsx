@@ -22,11 +22,6 @@ export default function App() {
         <Route path="/lifegoal/:id" element={<LifeGoalDetail />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/otpLogin" element={<OtpLogin />} />
-        <Route path="/otpLogin" element={<OtpLogin />} />
-        <Route path="/otpLogin" element={<OtpLogin />} />
-        <Route path="/popupblock" element={<PopupBlock />} />
-        <Route path="/popupblock" element={<PopupBlock />} />
-        <Route path="/popupblock" element={<PopupBlock />} />
         <Route path="/popupblock" element={<PopupBlock />} />
       </Routes>
     </AnimatePresence>
